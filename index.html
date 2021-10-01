@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <style>
+            div {
+                color: white;
+                background-color: #99003b;
+                margin: 1px;
+                font-size: 20px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Meeting Minutes</h1>
+            <h2>Week 1 Discussion Session</h2>
+            <p>Date: 10/30/2021</p>
+            <hr>
+            <h3>Atendance list</h3>
+            <ol>
+                <li>Dilara</li>
+                <li>Reny</li>
+                <li>Katherine</li>
+                <li>Hailey</li>
+                <li>Marie</li>
+            </ol>
+
+            <h4>Meeting Agenda:</h4>
+            <ul>
+                <div>Markdown</div>
+                <div>General Syntax</div>
+                <div>Flavors of Markdown</div>
+                <div>Polar Bear Markup Language</div>
+              </ul>
+
+            <h5>Last Business</h5>
+            <ul>
+                <li><b>TA</b> and <b>Tutor</b> Schedules</li>
+                <li>Course Agenda</li>
+            </ul>
+
+            <h5>New Business</h5>
+            <ul>
+                <li> <b>TA</b> and <b>Tutor</b> Schedules Completed and Shared</li>
+                <li>Course Agenda published on <strong>Canvas</strong></li>
+            </ul>
+
+            <h4><span style="background-color:lightgreen"> 
+                Comments & Questions: </h4>
+
+                <p>Intrudicing Markdown and <span style="color:blue;"> 
+                    HTML</span> <p>
+
+            <h3>Whiteboard Notes</h3>
+            <img src="screenshots/white.jpg" alt="whiteboard of the week 1">
+            
+            <h3>Intro Video</h3>
+            <video width="300" height="300" controls>
+            <source src="markdownVideo.mov" type="video/mp4">
+            </video>
+
+            <h3>Intro Audio</h3>
+            <audio controls>
+                <source src="markdownAudio.m4a" type="audio/mp3">
+            </audio>
+
+            <h3>Form for Week 1</h3>
+            <form>
+                <fieldset>
+                <legend>Student Feedback:</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+
+                <h4>Did you participate in person or virtually to the meeting?</h4>
+                <select name="participate" id="opparticipatetion">
+                    <option value="in person">In Person</option>
+                    <option value="virtually">Virtually</option>
+                  </select>
+           
+
+                <h4>How was the meeting?</h4>
+
+                    <input list="good/bad" name="good/bad">
+                    <datalist id="good/bad">
+                      <option value="Good">
+                      <option value="Bad">
+                    <option value="Boring">
+                    </datalist>
+                    
+                
+                
+                <h4>Choose your favorite Web language:</h4>                    
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                <h1></h1>
+
+
+                <textarea name="message" rows="10" cols="30">Enter your feedback.</textarea>
+                
+                <h1></h1>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+              </form>
+            
+
+
+
+    </body>
+</html>
