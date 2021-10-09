@@ -14,16 +14,25 @@
             margin-top: 3mm;
             font-size: 20px;
         }
+        
+
+        @media only screen and (max-width: 1000px) {
+        body {
+                background-color: rgb(253, 142, 114);
+  }
+}
     </style>
+
+    
 
 </head>
 
 <body>
-    <h1>Meeting Minutes</h1>
+    <h1 id="first_header">Meeting Minutes</h1>
     <h2 style="font-size:3vw">Week 1 Discussion Session</h2>
     <p1>Date: 10/30/2021</p1>
     <hr>
-    <h3>Atendance list</h3>
+    
     <ol>
         <li>Dilara</li>
         <li>Reny</li>
@@ -32,7 +41,9 @@
         <li>Marie</li>
     </ol>
 
-    
+    <p class="p8">These members are the student that participated.</p>
+
+    <a href="https://app.slack.com/client/T02DNF3S8UT/C02D7PF0JB1" fool="_blank">Slack Link</a>
 
     <div class="box">
         <h4>Meeting Agenda:</h4>
@@ -42,6 +53,14 @@
     <div>General Syntax</div>
     <div>Flavors of Markdown</div>
     <div>Polar Bear Markup Language</div>
+    
+
+    <div class="box"><p>Next Week Agenda </p></div>
+    <p>CSS </p>
+
+    <div id=testing1 class=tester1> 
+    <p>Last Week Agenda </p></div>
+    <p>Introduction</p>
 
     <h5>Last Business</h5>
     <ul>
@@ -80,8 +99,30 @@
     <audio>
         <source src="markdownAudio.m4a" type="audio/mp3">
     </audio>
+    <br>
 
+    <p>THERE ARE SOME CSS EXAMPLES BELOW.</p>
+    <br>
+    <p>like this code is not red but the following line will be red</p>
+    <span>here are some red boxes, wait this line is red too!</span>
 
+    <section class="flex-continer">
+
+    <img src="screenshots/red.png" alt="red 1">
+    <img src="screenshots/red.png" alt="red 2">
+    <img src="screenshots/red.png" alt="red 3">
+
+    </section>
+
+    <section class="grid-continer">
+
+        <img src="screenshots/red.png" alt="red 4">
+        <img src="screenshots/red.png" alt="red 5">
+        <img src="screenshots/red.png" alt="red 6">
+    
+    </section>
+
+    <br>
     <h3>Form for Week 1</h3>
     <form>
         <fieldset>
@@ -124,6 +165,7 @@
             <br>
 
             <input type="submit" value="Submit">
+
         </fieldset>
     </form>
 </body>
